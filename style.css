@@ -1,0 +1,155 @@
+:root{
+    --color: #fde570;
+    --colorbg: #F8F8F8;
+    --txt: rgb(128, 128, 128);
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: var(--txt);
+
+
+
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(255,219,63);
+    background: linear-gradient(317deg, rgba(255,219,63,0.49205619747899154) 0%, rgba(255,255,255,1) 50%, rgba(246,228,116,0.4892550770308123) 100%);
+}
+
+.content{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+.image{
+
+
+ 
+    background-image: url(./Signup1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 44vw;
+    
+
+
+    
+}
+.logoset{
+    display:flex;
+    position:relative;
+    top:65%;
+    height:100px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0.01) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0.01) 100%);
+    justify-content: center;
+    align-items: center;
+
+}
+.logo{
+
+    height:12vh;
+
+    /* height: 100%;
+    width:100%;
+    
+
+    margin-left:auto;
+    margin-right:auto; */
+    
+
+}
+.right{
+    width: 55vw;
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+}   
+.title{
+    font-size: 2em;
+    height: 10vh;
+
+}
+.right-text{
+    text-align:center;
+    margin: 0% 0 20% 0;
+}
+.left{
+    padding: 0 5% 0 5%;
+    margin-left: 5px;
+
+}
+
+fieldset{
+    border:0;
+ 
+
+}
+legend{
+    padding: 10px 0;
+}
+
+.yellow{
+    background: rgb(255,247,195);
+    background: linear-gradient(62deg, rgba(255,247,195,0.7945772058823529) 0%, rgba(250,244,134,1) 50%, rgba(255,181,168,1) 100%);
+    
+
+}
+
+.fset{
+    display:flex;
+    flex-flow: row wrap;
+    gap: 22px;
+
+
+}
+.form{
+    padding-bottom:20px;
+    filter:drop-shadow(2px 7px 3px #c0c0c0)
+
+}
+.input{
+    box-sizing:border-box;
+    display: flex;
+    flex-flow: column wrap;
+    width:45%;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    opacity: 85%;
+    /* background-color: #F1F1F1; */
+    margin-right:auto;
+    margin-left:auto;
+    
+}
+
+input[type=text],
+input[type=password],
+input[type=email]{
+    
+    filter:drop-shadow(1px 1px 1px);
+    width:100%;
+
+
+}
+
+
+
+input[type="submit"] {
+
+
+    margin: 30px 40%;
+    display: block;
+    width: 15%;
+  }
+
+  /* input:required {
+    border-color: #900;
+  } */

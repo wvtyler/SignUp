@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link href="style.css" rel="stylesheet"
+    <meta charset="utf-8">
+    <title>Safari Sign-up Page</title>
+  </head>
+    <body>
+      
+
+      <style id="validation"></style>
+      <script> 
+        function verify() {
+        document.getElementById("validation").innerHTML = "input:invalid { border: 1px solid red!important;}input:valid { border: 1px solid green;}";
+        }
+      </script>
+
+
+
+      <div class="content">      
+          <div class="image">
+            <div class="logoset">
+              <img src="Logo.png" class="logo">
+            </div>
+          
+          </div>
+          
+          <div class="right">
+            <div class="right-text left">
+              <p class="title">Willy's Wonderful Safaris</p>
+              <p>This is not a real online service. Just some css and html practice. <strong>;)</p>
+          </div>
+            
+            <div class="form left yellow">
+              <form method="post">
+                <!-- <p class="form-title">Sign up here!</p> -->
+                <fieldset class="fset">
+                    <legend>Sign up here!</legend>  
+                    <div class="input">
+                      <label for="first-name">First Name</label>
+                      <input type="text" name="first-name" id="first-name" required>
+                    </div>
+                    <div class="input">
+                      <label for="last-name">Last Name</label>
+                      <input type="text" name="last-name" id="last-name" required>
+                    </div>
+                    <div class="input">
+                      <label for="username">Username</label>
+                      <input type="text" name="username" id="username" required>
+                    </div>
+                    <div class="input">
+                      <label for="email">Email <Address></Address></label>
+                      <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="input">
+                      <label for="password">Password</label>
+                      <input type="password" name="password" id="password" required>
+                    </div>
+                    <div class="input">
+                      <label for="password2">Confirm Password </label>
+                      <input type="password" name="password2" id="password2" required>
+                    </div>
+                </fieldset>
+              </div>
+                  <input type="submit" onclick="verify()">
+
+                </form>
+            
+        </div>  
+
+
+      </body>
+
+
+    </html>
