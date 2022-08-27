@@ -8,12 +8,12 @@
     <body>
       
 
-      <style id="validation"></style>
-      <script> 
-        function verify() {
-        document.getElementById("validation").innerHTML = "input:invalid { border: 1px solid red!important;}input:valid { border: 1px solid green;}";
-        }
-      </script>
+        <style id="validation"></style>
+        <script> 
+          function verify() {
+          document.getElementById("validation").innerHTML = "input:invalid { border: 1px solid red!important;}input:valid { border: 1px solid green;}";
+          }
+        </script>
 
 
 
@@ -62,9 +62,16 @@
                     </div>
                 </fieldset>
               </div>
-                  <input type="submit" onclick="verify()">
+                  <div class = button><input class="submit" type="submit" onclick="verify()"></div>
 
                 </form>
+                <div class="footer left">
+                  <p>Already a member?
+                    <a href="login" class="login">Log in</a>
+                  </p>
+                  
+
+                </div>
             
         </div>  
 

@@ -1,3 +1,5 @@
+
+
 :root{
     --color: #fde570;
     --colorbg: #F8F8F8;
@@ -68,7 +70,7 @@
 
 }
 .right{
-    width: 55vw;
+    width: 56vw;
     display:flex;
     flex-flow: column;
     justify-content: center;
@@ -85,6 +87,7 @@
 .left{
     padding: 0 5% 0 5%;
     margin-left: 5px;
+    margin-right: 5px;
 
 }
 
@@ -145,11 +148,106 @@ input[type=email]{
 input[type="submit"] {
 
 
-    margin: 30px 40%;
-    display: block;
-    width: 15%;
+    
+
+    width: 25%;
+    background-color: rgba(256, 256, 256, 100);
+  
+    font-weight: 700;
+    font-size: 1.2em;
+    border: 2px solid;
+    border-radius: 5px;
+
   }
 
-  /* input:required {
-    border-color: #900;
-  } */
+ 
+
+.button{
+    margin-top:15px;
+    text-align: center;
+}
+
+.footer{
+    position: absolute;
+    bottom: 25px;
+    width:56vw;
+    text-align: center;
+}
+
+  @media only screen and (max-width: 600px)  {
+    .content{
+        flex-flow: column;
+        height: auto;
+        text-align: center;
+    }
+    .image {
+        width:100vw;
+
+    }
+    .logo{
+        height:10vh;
+    }
+    .right{
+        height:90vh;
+        width:auto;
+
+    }
+
+    
+    /* .picture{
+        width: 100vw;
+        height: 15vh;
+        display: flex;
+        background-size: 100vw;
+    }
+    .logo{
+        width: 100vw;
+        position: static;
+        gap: 10px;
+    }
+    .right{
+        width: auto;
+        height: auto;
+    }
+    .dummy-text{
+        width: auto;
+        margin-top: 30px;
+
+    }
+    .left{
+        padding: 10px 20px;
+    }
+    .remote-text{
+        padding: 20px 0;
+        margin: 0;
+    }
+    .form{
+        flex-flow: column nowrap;
+        align-items: center;
+
+    }
+    .input{
+        text-align: left;
+        width: auto;
+        font-size: 0.9em;
+        justify-content: center;
+        align-items: center;
+    }
+    input{
+        font-size: 0.9rem;
+        height: 1.5rem;
+        width: 70vw;
+    }
+    .button,
+    .log-in{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+    button{
+        margin-bottom: 0px;
+        width: 60vw;
+        padding: 10px 5px;
+    }
+
+} */
